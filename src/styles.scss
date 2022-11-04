@@ -40,6 +40,9 @@
   justify-items: center;
   gap: 5px;
   //   border: 1px solid red;
+  .barChartWrapper:nth-child(2) {
+    overflow: hidden;
+  }
 }
 .app .barChartWrapper:nth-child(1){
   border-right-style: dashed;
@@ -95,7 +98,7 @@
     border-width: 7px;
   }
   :nth-child(3) hr {
-    border-top: 1px solid rgba(65,188,170,255);
+    border-top: 1px solid rgba(124,151,179,255);
     border-width: 7px;
   }
   :nth-child(4) hr {

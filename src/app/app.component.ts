@@ -131,8 +131,8 @@ export class AppComponent {
       {
         data: [25, 36, 17, 20],
         label: 'Per capita',
-        backgroundColor: 'rgba(65,188,170,255)',
-        hoverBackgroundColor: 'rgba(65,188,170,255)',
+        backgroundColor: 'rgba(124,151,179,255)',
+        hoverBackgroundColor: 'rgba(124,151,179,255)',
         barThickness: 60,
         stack: 'a'
       },
@@ -151,6 +151,22 @@ export class AppComponent {
         hoverBackgroundColor: 'rgba(140,189,107,255)',
         barThickness: 60,
         stack: 'a'
+      },
+      {
+        type: 'scatter',
+        data: [200, 200, 200, 200],
+        label: 'Per capita',
+        backgroundColor: 'rgba(124,151,179,255)',
+        hoverBackgroundColor: 'rgba(124,151,179,255)',
+        stack: 'a',
+        pointStyle:'rect',
+        pointRadius: 25,
+        pointHoverRadius: 25,
+        datalabels: {
+          anchor: 'center',
+          align: 'center',
+          color: 'white'
+        },
       },
     ],
   };
@@ -207,6 +223,22 @@ export class AppComponent {
         hoverBackgroundColor: 'rgba(140,189,107,255)',
         barThickness: 60,
         stack: 'a'
+      },
+      {
+        type: 'scatter',
+        data: [190, 190, 190, 190],
+        label: 'Per capita',
+        backgroundColor: 'rgba(124,151,179,255)',
+        hoverBackgroundColor: 'rgba(124,151,179,255)',
+        stack: 'a',
+        pointStyle:'rect',
+        pointRadius: 25,
+        pointHoverRadius: 25,
+        datalabels: {
+          anchor: 'center',
+          align: 'center',
+          color: 'white'
+        },
       },
     ],
   };
@@ -364,7 +396,7 @@ export class AppComponent {
     datasets: [
       {
         type: 'line',
-        data: [60, 70],
+        data: [90, 100],
         datalabels: {
           color: 'black'
         },
@@ -374,11 +406,27 @@ export class AppComponent {
         borderColor: 'rgba(198,93,22,255)',
       },
       {
-        data: [46, 19, 55, 40],
+        data: [66, 39, 55, 40],
         label: 'Salary',
         backgroundColor: 'rgba(46,125,158,255)',
         hoverBackgroundColor: 'rgba(46,125,158,255)',
         barThickness: 50,
+      },
+      {
+        type: 'scatter',
+        data: [140, 140, 140, 140],
+        label: 'Unemployed',
+        backgroundColor: 'rgba(124,151,179,255)',
+        hoverBackgroundColor: 'rgba(124,151,179,255)',
+        stack: 'a',
+        pointStyle:'rect',
+        pointRadius: 25,
+        pointHoverRadius: 25,
+        datalabels: {
+          anchor: 'center',
+          align: 'center',
+          color: 'white'
+        },
       },
     ],
   };
@@ -398,10 +446,26 @@ export class AppComponent {
       },
       {
         data: [36, 15, 45, 50],
-        label: 'Unemployed',
+        label: 'Salary',
         backgroundColor: 'rgba(46,125,158,255)',
         hoverBackgroundColor: 'rgba(46,125,158,255)',
         barThickness: 50,
+      },
+      {
+        type: 'scatter',
+        data: [140, 140, 140, 140],
+        label: 'Unemployed',
+        backgroundColor: 'rgba(124,151,179,255)',
+        hoverBackgroundColor: 'rgba(124,151,179,255)',
+        stack: 'a',
+        pointStyle:'rect',
+        pointRadius: 25,
+        pointHoverRadius: 25,
+        datalabels: {
+          anchor: 'center',
+          align: 'center',
+          color: 'white'
+        },
       },
     ],
   };
